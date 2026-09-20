@@ -52,12 +52,9 @@ def main():
     b = 7
     c = -1
     
-    #arithmetic expression
-    #numerator = (3*x - 9*y)
-    #denominator = 2*a*(b - c)
-    #result1 = numerator/denominator
-    
+    #arithmetic expression    
     result1 = (3*x - 9*y)/(2*a*(b - c))
+    
     #ptints
     print(f"Part 1: x = {x}")
     print(f"Part 1: y = {y}")
@@ -73,7 +70,17 @@ def main():
     # Part 2: Power
     # =============================================
     # Your code for part 2 under this line and before the print statements
-
+    x = 5
+    y = -3
+    
+    #expression
+    result2 = (x**2)*(y**4)
+    
+    #prints
+    print(f"Part 2: x = {x}")
+    print(f"Part 2: y = {y}")
+    print(f"Part 2: result = {result2}")
+    
     # End of Part 2 ----------------------
 
 
@@ -81,7 +88,16 @@ def main():
     # Part 3: Integer divide
     # =============================================
     # Your code for part 3 under this line and before the print statements
-
+    a = 100 #a is the number of treats
+    b = 13 #number of dogs
+    
+    result3 = a//b
+    
+    #prints
+    print(f"Part 3: a = {a}")
+    print(f"Part 3: b = {b}")
+    print(f"Part 3: result = {result3}")
+    
     # End of Part 3 ----------------------
 
 
